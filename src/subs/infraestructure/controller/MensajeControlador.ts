@@ -1,4 +1,4 @@
-import { ProcesarMensaje } from '../../aplicacion/procesarmensaje';
+import { ProcesarMensaje } from '../../aplicacion/ProcesarMensaje';
 import { Mensaje } from '../../dominio/Mensaje';
 
 export class MensajeControlador {
