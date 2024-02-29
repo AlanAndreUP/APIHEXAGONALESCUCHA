@@ -1,6 +1,6 @@
 import express from 'express'
 import { MensajeControlador } from './subs/infraestructure/controller/MensajeControlador';
-import { ProcesarMensaje } from './subs/aplicacion/procesarmensaje';
+import { ProcesarMensaje } from './subs/aplicacion/ProcesarMensaje';
 import { MensajeQueueAdapter } from './subs/infraestructure/queue/MensajeQueueAdapter';
 const app = express();
 app.disable("x-powered-by");
