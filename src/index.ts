@@ -4,7 +4,8 @@ import { ProcesarMensaje } from './subs/aplicacion/ProcesarMensaje';
 import { MensajeQueueAdapter } from './subs/infraestructure/queue/MensajeQueueAdapter';
 const app = express();
 app.disable("x-powered-by");
-
+const cors = require('cors');
+app.use(cors());
 
 
 const port = process.env.PORT || 4001
